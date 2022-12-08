@@ -2,13 +2,16 @@
 
 LeIA (Léxico para Inferência Adaptada) é um fork do léxico e ferramenta para análise de sentimentos <a href="https://github.com/cjhutto/vaderSentiment">VADER</a> (Valence Aware Dictionary and sEntiment Reasoner) adaptado para textos em português, com suporte para emojis e foco na análise de sentimentos de textos expressos em mídias sociais - mas funcional para textos de outros domínios.
 
+## Install
+```
+pip install git+https://github.com/wpcasarin/LeIA.git#egg=LeIA
+```
 
-Modo de uso
------------
+## Modo de uso
 A biblioteca preserva a API do VADER, e o texto de entrada não precisa ser pré-processado:
 
 <pre>
-from leia import SentimentIntensityAnalyzer 
+from LeIA import SentimentIntensityAnalyzer 
 
 s = SentimentIntensityAnalyzer()
 
