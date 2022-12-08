@@ -1,2 +1,2 @@
 include *.txt *.py *.md
-recursive-include leia *.txt *.py
+recursive-include LeIA *.txt *.py
