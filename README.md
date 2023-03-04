@@ -5,6 +5,8 @@ LeIA (Léxico para Inferência Adaptada) é um fork do léxico e ferramenta para
 ## Install
 ```
 pip install git+https://github.com/wpcasarin/LeIA.git#egg=LeIA
+or
+pip install leia-br
 ```
 
 ## Modo de uso
